@@ -1,0 +1,44 @@
+Projeto PHP + MySQL
+
+Instruções rápidas:
+1) Importar o arquivo db.sql no seu MySQL (por exemplo via phpMyAdmin ou linha de comando).
+   - Banco: projeto_php_mysql
+   - Tabela: users, messages
+
+2) Configurar o arquivo config.php com as credenciais do seu MySQL (user, password, host).
+   Por padrão está como:
+     DB_HOST = 'localhost'
+     DB_USER = 'root'
+     DB_PASS = ''
+     DB_NAME = 'projeto_php_mysql'
+
+OBS: DB_PASS inserir a senha do MySQL
+
+3) Colocar a pasta no diretório público do seu servidor (ex: htdocs no XAMPP).
+   Acesse via: http://localhost/projeto_php_mysql/index.php
+
+OBS: trocar o nome da pasta projeto_php_mysql por projturmaaluno, onde aluno é o nome do aluno - exemplo proj351renato
+
+4) Funcionalidades implementadas:
+   - Página inicial (index.php)
+   - Registro de usuário (register.php)
+   - Login (login.php) com sessão
+   - Página de contato que grava mensagens no banco (contact.php)
+   - Menu de navegação com links
+   - Rodapé com ©2025 (em todas as páginas)
+   - Arquivo db.sql com instruções para criar o banco e tabelas
+
+OBS: trocar o rodapé (em todas as páginas), por &copy; 2025 Projeto turma Aluno - Todos os direitos reservados, onde aluno é o nome do aluno - exemplo &copy; 2025 Projeto 351 Renato
+
+Arquivos principais:
+- index.php, config.php, register.php, register_action.php, login.php, login_action.php,
+  logout.php, contact.php, contact_action.php, profile.php
+- css/style.css
+- db.sql
+
+5) Estruturar em pastas conforme "Aula 4: Criando a Estrutura de Pastas do Projeto" do arquivo "Aprenda PHP por Projetos.pdf"
+
+6) Corrigir código fonte dos arquivos em php conforme a estruturação em pastas.
+
+
+Boa sorte!
